@@ -12,9 +12,19 @@ body{
   margin-top:20px;
 }
 h1{
-  font-size: 24px;
+  font-size: 36px;
   border-bottom: 1px dotted #555;
   padding:75px 0px 5px 0px;
   margin:0px 0px 20px 0px;
   text-align:center;
+}
+ul{
+  list-style: none;
+  clear: both;
+  padding:0px;
+}
+ul li{
+  background: #fff;
+  padding:10px 30px;
+  box-sizing: border-box;
 }
