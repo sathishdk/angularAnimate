@@ -27,10 +27,23 @@ ul{
   box-sizing: border-box;
   height: 200px;
   overflow:auto;
+  background: #fff;
 }
 ul li{
   background: #fff;
   padding:10px 30px;
   box-sizing: border-box;
   border-bottom: 1px dotted #ccc;
+}
+.ng-enter, .ng-move{
+  animation: fade-in 1s;
+  -webkit-animation: fade-in 1s;
+  -moz-animation: fade-in 1s;
+  -o-animation: fade-in 1s;
+}
+.ng-leave{
+  animation: fade-out 1s;
+  -webkit-animation: fade-out 1s;
+  -moz-animation: fade-out 1s;
+  -o-animation: fade-out 1s;
 }
