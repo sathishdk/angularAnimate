@@ -17,7 +17,7 @@
         <div class="col-md-4"></div>
         <div class="col-md-4">
           <h1>AngularJS Animate</h1>
-          <input class="form-control" type="text" placeholder="Search for a fruit" ng-model="query" />
+          <input class="form-control" type="text" placeholder="Search for a fruit" autofocus ng-model="query" />
           <ul>
             <li ng-repeat="fruit in fruits | filter: query"><a ng-href="https://www.google.co.in/?gfe_rd=cr&ei=lXV5VZLtFOrI8AeLrLmoCg&gws_rd=ssl#q={{fruit}}">{{fruit}}</a></li>
           </ul>
