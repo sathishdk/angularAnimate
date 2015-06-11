@@ -25,6 +25,8 @@ ul{
   margin: 0px 20px;
   border: 1px dotted #ccc;
   box-sizing: border-box;
+  height: 500px;
+  overflow:auto;
 }
 ul li{
   background: #fff;
