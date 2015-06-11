@@ -21,10 +21,14 @@ h1{
 ul{
   list-style: none;
   clear: both;
-  padding:0px;
+  padding: 0px;
+  margin: 0px 20px;
+  border: 1px dotted #ccc;
+  box-sizing: border-box;
 }
 ul li{
   background: #fff;
   padding:10px 30px;
   box-sizing: border-box;
+  border-bottom: 1px dotted #ccc;
 }
